@@ -11,9 +11,11 @@ jobs:
         fruit: [apple, banana, mango]
         vegetable: [carrot, spinach]
         number: [1, 2]
+        alphabet: [a, b, c, d, e, f, g, k, l, m, n, o, p, x, y, z]
     steps:
       - name: Echo Matrix Values
         run: |
           echo "Fruit: ${{ matrix.fruit }}"
           echo "Vegetable: ${{ matrix.vegetable }}"
           echo "Number: ${{ matrix.number }}"
+          echo "Alphabet: ${{ matrix.alphabet }}"
