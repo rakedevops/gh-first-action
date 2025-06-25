@@ -1,0 +1,19 @@
+name: Multi-Dimensional Matrix Demo
+
+on:
+  workflow_dispatch:
+
+jobs:
+  echo-combinations:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        fruit: [apple, banana, mango]
+        vegetable: [carrot, spinach]
+        number: [1, 2]
+    steps:
+      - name: Echo Matrix Values
+        run: |
+          echo "Fruit: ${{ matrix.fruit }}"
+          echo "Vegetable: ${{ matrix.vegetable }}"
+          echo "Number: ${{ matrix.number }}"
