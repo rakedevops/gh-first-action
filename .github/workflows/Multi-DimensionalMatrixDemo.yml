@@ -15,7 +15,7 @@ jobs:
         vegetable: [carrot, spinach]
         number: [1, 2]
         alphabet: [a, b, c, d, e, f, g, k, l, m, n, o, p, x, y, z]
-        symbol: [alpha, beta]
+        symbol: [alpha]
     steps:
       - name: Echo Matrix Values
         run: |
