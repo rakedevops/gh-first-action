@@ -16,7 +16,7 @@ jobs:
         fruit: [apple, banana, mango]
         vegetable: [carrot, spinach]
         number: [1, 2]
-        alphabet: [a, b, c, d, e, f, g, k, l, m, n, o, p, x, y, z]
+        alphabet: [a, b, c, d, e, f]
         symbol: [alpha]
     steps:
       - name: Echo Matrix Values
